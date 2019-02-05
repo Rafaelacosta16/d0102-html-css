@@ -1,0 +1,60 @@
+/*
+SELETOR {
+    PROPRIEDADE: VALOR;
+}
+*/
+
+body {
+    font-family: sans-serif;
+    margin:0;
+    background-color: salmon
+}
+
+header {
+    background-color: yellow
+}
+
+.nav-header a {
+    color: red;
+    text-decoration: none;
+}
+
+.cor-vermelha {
+    color: red;
+}
+
+#header-pesquisa{
+    color: green;
+}
+
+/*::placeholder é um pseudoelemento,e só existe quando há uma tag
+input*/
+#header-pesquisa::placeholder {
+    color: aqua;
+}
+
+textarea {
+    resize: none;
+}
+
+.formulario-contato {
+    background-color: lightgray;
+    border-radius: 10px;
+    box-shadow: 1px 1px 15px 15px rgb(0, 0, 0, 0.1);
+}
+
+.formulario-contato p, .formulario-contato h3 {
+    font-size: 18pt;
+}
+
+
+.negrito {
+    font-weight: bold;
+}
+
+.negrito:hover {
+    color: lawngreen;
+}
+
+
+img:hover
